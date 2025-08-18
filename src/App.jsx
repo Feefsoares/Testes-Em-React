@@ -4,17 +4,20 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Saudacao from './components/Saudacao'
 import Rodape from './components/Rodape'
+import { Nome, Profissao } from './components/Perfil'
+import Produto from './components/Produto'
+import Container from './components/Container'
 
 function App() {
-  const nome = "fernando"
-  const profissao = "Programador"
   return (
     <div>
-            <Saudacao />
-            <h1>TITULO LEGAL</h1>
-      <h2>nome:{nome}</h2>
-      <h3>profissao: {profissao}</h3>
-    <Rodape />
+<Container> 
+  <h1>titulo</h1>
+  <p>liiil</p>
+</Container>
+
+      <Produto nome="Camisa" preco={49.99} emEstoque={true} />
+      <Produto nome="Calça Jeans" preco={89.99} emEstoque={false} />
     </div>
   )
 }
