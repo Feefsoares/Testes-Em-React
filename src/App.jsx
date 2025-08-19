@@ -8,11 +8,12 @@ import { Nome, Profissao } from './components/Perfil'
 import Produto from './components/Produto'
 import Container from './components/Container'
 import Contador from './components/Contador'
+import Modo from './components/ModoNoturno'
 
 function App() {
   return (
     <div>
-      <Contador />
+      <Modo />
       </div>
   )
 }
