@@ -9,11 +9,13 @@ import Produto from './components/Produto'
 import Container from './components/Container'
 import Contador from './components/Contador'
 import Modo from './components/ModoNoturno'
+import FormularioContato from './components/Formulario'
+
 
 function App() {
   return (
     <div>
-      <Modo />
+      <FormularioContato />
       </div>
   )
 }
