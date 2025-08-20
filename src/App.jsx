@@ -11,11 +11,12 @@ import Contador from './components/Contador'
 import Modo from './components/ModoNoturno'
 import FormularioContato from './components/Formulario'
 import Carrinho from './components/Carrinho'
+import Faq from './components/FaqInterativo'
 
 function App() {
   return (
     <div>
-      <Carrinho />
+      <Faq />
       </div>
   )
 }
