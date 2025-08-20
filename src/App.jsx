@@ -12,11 +12,12 @@ import Modo from './components/ModoNoturno'
 import FormularioContato from './components/Formulario'
 import Carrinho from './components/Carrinho'
 import Faq from './components/FaqInterativo'
+import ListaDeNomes from './components/ListaDeNomes'
 
 function App() {
   return (
     <div>
-      <Faq />
+      <ListaDeNomes />
       </div>
   )
 }
