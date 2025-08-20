@@ -10,12 +10,12 @@ import Container from './components/Container'
 import Contador from './components/Contador'
 import Modo from './components/ModoNoturno'
 import FormularioContato from './components/Formulario'
-
+import Carrinho from './components/Carrinho'
 
 function App() {
   return (
     <div>
-      <FormularioContato />
+      <Carrinho />
       </div>
   )
 }
